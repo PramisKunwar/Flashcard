@@ -2,6 +2,7 @@
 A lightweight Chrome extension that lets students turn highlighted text on any webpage into flashcards for active recall study.
 
 --- 
+![My extension](/image.png)
 
 ##  Purpose
 When reading study material online, students often highlight text but never revisit it. This extension solves that by converting highlighted text into flashcards instantly — no accounts, no cloud, no complexity.
@@ -22,15 +23,15 @@ When reading study material online, students often highlight text but never revi
 ##  File Structure
 ```
 flashcard-extension/
-├── manifest.json      # Extension config (Manifest V3, permissions, scripts)
-├── background.js      # Service worker: creates context menu, handles save logic
-├── content.js         # Content script: injects question prompt modal on pages
-├── popup.html         # Popup UI markup for flashcard review
-├── popup.js           # Popup logic: load, display, navigate, delete flashcards
-├── popup.css          # Popup styles: clean, minimal card-based layout
+├── manifest.json      
+├── background.js      
+├── content.js         
+├── popup.html         
+├── popup.js           
+├── popup.css          
 └── icons/
-    ├── icon48.png     # Toolbar icon (48×48)
-    └── icon128.png    # Store/install icon (128×128)
+    ├── icon48.png     
+    └── icon128.png    
 ```
 
 ---
