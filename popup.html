@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flashcards</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="header">
+    <h1>📇 Flashcards</h1>
+    <span id="card-counter" class="counter"></span>
+  </div>
+
+  <!-- Empty state -->
+  <div id="empty-state" class="empty-state" style="display:none;">
+    <div class="empty-icon">📝</div>
+    <p>Highlight text on any webpage and right-click to save your first flashcard.</p>
+  </div>
+
+  <!-- Flashcard review -->
+  <div id="card-container" style="display:none;">
+    <div class="card">
+      <div class="card-label">QUESTION</div>
+      <div id="card-question" class="card-question"></div>
+
+      <div id="answer-section" style="display:none;">
+        <div class="card-label" style="margin-top:12px;">ANSWER</div>
+        <div id="card-answer" class="card-answer"></div>
+      </div>
+
+      <button id="show-answer-btn" class="btn btn-primary full-width">Show Answer</button>
+    </div>
+
+    <div id="card-source" class="card-source"></div>
+
+    <div class="actions">
+      <button id="delete-btn" class="btn btn-danger">Delete</button>
+      <button id="next-btn" class="btn btn-secondary">Next →</button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
