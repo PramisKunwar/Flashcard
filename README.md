@@ -1,14 +1,14 @@
-# 📇 Highlight to Flashcard — Chrome Extension
+#  Highlight to Flashcard — Chrome Extension
 A lightweight Chrome extension that lets students turn highlighted text on any webpage into flashcards for active recall study.
 
 --- 
 
-## 🎯 Purpose
+##  Purpose
 When reading study material online, students often highlight text but never revisit it. This extension solves that by converting highlighted text into flashcards instantly — no accounts, no cloud, no complexity.
 
 ---
 
-## ✅ Features
+##  Features
 - **Highlight → Save**: Select text on any webpage, right-click, and save it as a flashcard
 - **Question Prompt**: A clean modal asks you to enter the question (front of card); the highlighted text becomes the answer (back of card)
 - **Popup Review**: Click the extension icon to review your flashcards one at a time
@@ -19,7 +19,7 @@ When reading study material online, students often highlight text but never revi
 
 ---
 
-## 📁 File Structure
+##  File Structure
 ```
 flashcard-extension/
 ├── manifest.json      # Extension config (Manifest V3, permissions, scripts)
@@ -35,7 +35,7 @@ flashcard-extension/
 
 ---
 
-## 🚀 Installation
+##  Installation
 1. Download or clone this repository
 2. Open Chrome and navigate to `chrome://extensions`
 3. Enable **Developer mode** (toggle in top-right)
@@ -45,7 +45,7 @@ flashcard-extension/
 
 ---
 
-## 📖 How to Use
+##  How to Use
 1. **Highlight** any text on a webpage
 2. **Right-click** → select **"Save as Flashcard"**
 3. Enter a **question** for the front of the card in the modal that appears
@@ -55,7 +55,7 @@ flashcard-extension/
 
 ---
 
-## 🗂 Flashcard Data Format
+##  Flashcard Data Format
 Each flashcard is stored as a simple object:
 ```json
 {
@@ -69,7 +69,7 @@ Each flashcard is stored as a simple object:
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 - **Manifest V3** — latest Chrome extension standard
 - **Vanilla JavaScript** — no frameworks or build tools
 - **HTML + CSS** — simple, clean UI
@@ -78,7 +78,7 @@ Each flashcard is stored as a simple object:
 
 ---
 
-## 🚫 Intentionally Not Included
+##  Intentionally Not Included
 - No AI features
 - No login or accounts
 - No cloud sync
@@ -88,5 +88,5 @@ Each flashcard is stored as a simple object:
 
 ---
 
-## 📄 License
+##  License
 This project is made for Hack Club.
