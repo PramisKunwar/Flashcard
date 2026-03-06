@@ -4,6 +4,14 @@ A lightweight Chrome extension that lets students turn highlighted text on any w
 --- 
 ![My extension](/image.png)
 
+---
+![My extension](/flashcard1.png)
+
+---
+![My extension](/flashcard2.png)
+
+---
+
 ##  Purpose
 When reading study material online, students often highlight text but never revisit it. This extension solves that by converting highlighted text into flashcards instantly — no accounts, no cloud, no complexity.
 
